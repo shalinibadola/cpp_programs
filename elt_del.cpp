@@ -1,28 +1,30 @@
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     char arr[50];
-//     char ch;
-//     int i;
-//     cout<<"enter an array";
-//     cin.getline(arr,50);
-//     cout<<"enter the element to be deleted";
-//     cin>>ch;
-//     for(i=0;i<50;i++)
-//     {
-//         if(arr[i]==ch)
-//         {
-//             arr[i]=arr[i+1];
-//         }
-//         else
-//         {
-//             cout<<arr[i];
-//         }
-//     }
-//     return 0;
-// }
+//using array
+#include<iostream>
+using namespace std;
+int main()
+{
+    char arr[50];
+    char ch;
+    int i;
+    cout<<"enter an array";
+    cin.getline(arr,50);
+    cout<<"enter the element to be deleted";
+    cin>>ch;
+    for(i=0;i<50;i++)
+    {
+        if(arr[i]==ch)
+        {
+            arr[i]=arr[i+1];
+        }
+        else
+        {
+            cout<<arr[i];
+        }
+    }
+    return 0;
+}
 
+//using string
 #include<iostream>
 using namespace std;
 int main()
